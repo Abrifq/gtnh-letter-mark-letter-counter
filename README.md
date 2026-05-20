@@ -1,4 +1,4 @@
-# Letter Counter for GT:NH Signs
+# Letter Counter for GT:NH Letter Mark "Signs"
 
 Yeah, I was doing a build where I wanted to write the name of the build on every floor, on every side, so I needed a calculator for that.
 
