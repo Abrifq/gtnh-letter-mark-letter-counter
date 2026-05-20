@@ -23,7 +23,7 @@ make
 ```
 
 ```sh
-gcc -Wall -Werror -Wextra -pedantic-errors -pedantic -g -DPOSIX_SOURCE -DPOSIX_C_SOURCE=200809L -o letterCounter letterCounter.c
+gcc -Wall -Werror -Wextra -pedantic-errors -pedantic -g -DPOSIX_SOURCE -DPOSIX_C_SOURCE=200809L -o bin/letterCounter src/letterCounter.c
 ```
 
 ## Usage
@@ -60,16 +60,16 @@ So, if you need to extract it with a regex, then you can use something like `^"(
 
 ### Example input output
 
-```
+```plaintext
 $ ./letterCounter kofteistkofte
 Results:
-"k"	2
-"o"	2
-"f"	2
-"t"	3
-"e"	2
-"i"	1
-"s"	1
+"K"	2
+"O"	2
+"F"	2
+"T"	3
+"E"	2
+"I"	1
+"S"	1
 Total:	13
 ```
 
