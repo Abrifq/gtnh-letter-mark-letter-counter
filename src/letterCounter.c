@@ -65,7 +65,7 @@ inline void addLetterToCounter(struct CounterArray *counter, char letter){
 	struct CounterArrayItem *lookupPos = counter->array;
 	struct CounterArrayItem *lookupEndPos = &(counter->array[counter->used]);
 
-	while (lookupPos++ != lookupEndPos){
+	for (;lookupPos != lookupEndPos; lookupPos++){
 		if(lookupPos->letter != letter) continue;
 		lookupPos->count++;
 		return;
