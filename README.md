@@ -8,8 +8,8 @@ MIT License
 
 Fixes and contributions are always welcome, unless it's very slop.
 
-[Jump to Compiling section](#Compiling)
-[Jump to Usage section](#Usage)
+[Jump to Compiling section](#compiling)
+[Jump to Usage section](#usage)
 
 ## Compiling
 
