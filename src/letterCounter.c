@@ -4,7 +4,7 @@
 #include <inttypes.h>
 #include "letterCounter.h"
 
-const char validLetters[]= "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ"; //TODO: update after checking the available textures.
+const char validLetters[]= "0123456789-,.ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 int main (int argc, char **argv){
 
